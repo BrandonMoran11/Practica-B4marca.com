@@ -1,5 +1,6 @@
 .barra-navegacion {
     background-color: #c90909;
+    text-align: center;
 }
 
 .text-decoration {
@@ -9,5 +10,13 @@
 
 header .noticia-header {
     text-align: center;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(241, 240, 240);
+}
+
+.actualidad-ultimasNoticias-red {
+    background-color: rgb(180, 0, 0);
+}
+
+.barra-equipos {
+    background-color: #f1f0f0;
 }

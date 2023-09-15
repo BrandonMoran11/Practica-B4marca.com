@@ -92,47 +92,143 @@
         </div>
 
     </header>
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid barra-navegacion">
-            <a class="navbar-brand " style="color: rgb(255, 255, 255)" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" style="color: aliceblue" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color: aliceblue" href="#">Link</a>
+    <nav class="navbar navbar-expand-lg navbar-dark barra-navegacion sticky-top" style="padding: 0">
+        <div class="container">
+            <a class="navbar-brand d-lg-none" href="#">
+                <img src="./assets/img/svg/Marca-blanco.svg.png" alt="Logo MARCA" class="imagen-con-fondo"
+                    style="width: 150px" />
+            </a>
+            <div class="align-content-end">
+                <a href="#" class="text-decoration-none d-lg-none" title="Radio MARCA">
+                    <img src="./assets/img/svg/1200px-RadioMARCA.svg.png" alt="Logo Radio MARCA" class="img-fluid m-1"
+                        style="width: 2rem" />
+                </a>
+                <div class="btn-group d-lg-none">
+                    <button class="btn btn-outline-light btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="./assets/img/svg/Flag_of_Mexico.png" alt="México" class="img-fluid"
+                            style="width: 20px" />
+                        MX
+                    </button>
+                    <ul class="dropdown-menu p-1">
+                        <strong>Ediciones</strong>
+                        <hr />
+                        <a href="#" class="dropdown-item active">
+                            <img src="./assets/img/svg/Flag_of_Mexico.png" alt="México" class="img-fluid"
+                                style="width: 20px" />
+                            MX (México)
+                        </a>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-outline-light btn-sm d-lg-none">
+                    Iniciar sesión
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+                    <li class="nav-item dropdown position-static">
+                        <a class="nav-link dropdown-toggle active fw-bold" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fútbol
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" style="color: aliceblue" aria-expanded="false">
-                            Dropdown
+                        <a class="nav-link dropdown-toggle active fw-bold" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Motor
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" style="color: aliceblue"
-                            aria-disabled="true">Disabled</a>
+                        <a class="nav-link active fw-bold" href="#">Boxeo</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active fw-bold" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            NFL
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active fw-bold" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Otros deportes
+                        </a>
+                    </li>
+
+                    <li class="nav-item actualidad-ultimasNoticias-red d-flex align-items-center">
+                        <a class=" m-2 mb-0 mt-0 text-decoration" style="color:rgb(255, 255, 255)"
+                            href="#">Actualidad</a>
+                    </li>
+                    <li class="nav-item actualidad-ultimasNoticias-red d-flex align-items-center">
+                        <a class=" m-2 mb-0 mt-0 text-decoration" style="color:rgb(255, 255, 255)" href="#">Últimas
+                            noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active" href="#">Más <i class="fa fa-plus"
+                                aria-hidden="true"></i></a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
+
     <main>
-        asdasds
+        <div class="">
+            <div class="row">
+                <div class="barra-equipos mb-1">
+                    <div class="col-md-12 d-flex mt-2 justify-content-center ">
+                        <a href="#">
+                            <img src="img/america.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/atlas.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/chivas.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/cruz-azul.png" class="img-fluid m-2 mt-0 mb-0" alt="..."
+                                style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/necaxa.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/mazatlan.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/puebla.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/toluca.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/santosLaguna.png" class="img-fluid m-2 mt-0 mb-0" alt="..."
+                                style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/tijuana.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/queretaro.png" class="img-fluid m-2 mt-0 mb-0" alt="..."
+                                style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/pumas.png" class="img-fluid m-2 mt-0 mb-0" alt="..." style="width: 2rem" />
+                        </a>
+                        <a href="#">
+                            <img src="img/monterrey.png" class="img-fluid m-2 mt-0 mb-0" alt="..."
+                                style="width: 2rem" />
+                        </a>
+                    </div>
+                </div>
+
     </main>
 </body>
 

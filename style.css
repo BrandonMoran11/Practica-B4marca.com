@@ -45,21 +45,21 @@ header .noticia-header {
 
 /* Acomodo del boton login */
 
-.right{
+.flow{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.right .btn-group > *{
+.flow .btn-group > *{
     font-size: 13px !important;
 }
 
-.right .btn-flag{
+.flow.btn-flag{
     color: #c00;
 }
 
-.right .btn-flag:hover{
+.flow .btn-flag:hover{
     background-color: black;
     color: white;
 }

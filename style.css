@@ -24,11 +24,11 @@ header .noticia-header {
 
 /* Boton de login */
 
-.btn-login{
+.btn-login {
     padding-left: 12px;
 }
 
-.btn-login a{
+.btn-login a {
     text-decoration: none;
     color: #c00;
     border: 1px solid #e2e2e2;
@@ -37,7 +37,7 @@ header .noticia-header {
     font-size: 13px;
 }
 
-.btn-login a:hover{
+.btn-login a:hover {
     background-color: black;
     color: white;
     transition: all ease-in-out 0.5s;
@@ -45,32 +45,32 @@ header .noticia-header {
 
 /* Acomodo del boton login */
 
-.flow{
+.flow {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.flow .btn-group > *{
+.flow .btn-group>* {
     font-size: 13px !important;
 }
 
-.flow.btn-flag{
+.flow.btn-flag {
     color: #c00;
 }
 
-.flow .btn-flag:hover{
+.flow .btn-flag:hover {
     background-color: black;
     color: white;
 }
 
-form{
+form {
     width: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
-
-
+.resultados-color {
+    background-color: rgb(192, 16, 16);
+}

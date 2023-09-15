@@ -20,3 +20,57 @@ header .noticia-header {
 .barra-equipos {
     background-color: #f1f0f0;
 }
+
+
+/* Boton de login */
+
+.btn-login{
+    padding-left: 12px;
+}
+
+.btn-login a{
+    text-decoration: none;
+    color: #c00;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.btn-login a:hover{
+    background-color: black;
+    color: white;
+    transition: all ease-in-out 0.5s;
+}
+
+/* Acomodo del boton login */
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .btn-group > *{
+    font-size: 13px !important;
+}
+
+.right .btn-flag{
+    color: #c00;
+}
+
+.right .btn-flag:hover{
+    background-color: black;
+    color: white;
+}
+
+form{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

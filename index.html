@@ -7,17 +7,17 @@
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="d-flex flex-row" style="overflow-x: auto; white-space: nowrap;">
+                <div class="col-md-12 ">
+                    <div class="d-flex flex-row noticia-header noticia d-none d-lg-block"
+                        style="overflow-x: auto; white-space: nowrap;">
                         <span class="text-body-secondary" style="font-size: smaller;">
                             <span class="fw-bold">Es noticia:</span>
                             <a>América vs Chivas</a> /
@@ -34,12 +34,44 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 mt-2 mb-2">
+            <div class="container header-blanco">
+                <div class="links-header">
+                    <div class="row">
+                        <div class="col-6 d-flex align-items-center">
+                            <a class="text-decoration" href="#" style="color:black">
+                                <img src="img/radioMarca.png" alt="Logo" style="width: 2rem"
+                                    class="d-inline-block align-text-center">
+                                Radio Marca
+                            </a>
+                            <hr style="margin: 0 1% 0 1%;  border: 0.8px solid black; height: 80%;">
+                            <a class="text-decoration" href="#" style="color:black">
+                                <img src="img/cuidatePlus.jpg" alt="Logo" style="width: 2rem"
+                                    style="border-radius: 50%;" class="d-inline-block align-text-center">
+                                CuídatePlus
+                            </a>
+                            <hr style="margin: 0 1% 0 1%;  border: 0.8px solid black; height: 80%;">
+                            <a class="text-decoration" href="#" style="color:black">
+                                <img src="img/trending.PNG" alt="Logo" style="width: 2rem"
+                                    class="d-inline-block align-text-center">
+                                Lo + trending
+                            </a>
+                        </div class="justify-content-center">
+                        <div class="col-  logo-marca" style="width: 150px;">
+                            <a class="" href="index.html">
+                                <img src="img/MARCA.PNG" alt="Bootstrap" style="width: 11rem">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="col-3 mt-2 mb-2">
                 <div class="col-3 d-flex align-items-center fw-semibold" style="font-size: smaller;">
                     <img src="E:\Escritorio\Practicas PM\Practica-B4marca.com\img\1200px-RadioMARCA.svg.png"
                         style="width: 3rem" />
                     <a href="https://www.marca.com/radio.html?intcmp=BOTONPORTADA&s_kw=radiomarca" target="_blank"
-                        class="link d-none d-lg-block">
+                        class="d-inline-block align-text-center">
                         Radio MARCA
                     </a>
                     <img src="E:\Escritorio\Practicas PM\Practica-B4marca.com\img\1sITgoTL_400x400.jpg"
@@ -53,16 +85,16 @@
                         Lo + Trending
                     </a>
                 </div>
-            </div>
-            <div class="col-6 text-center d-none d-lg-block">
+            </div> -->
+        <div class="col-6 text-center d-none d-lg-block">
 
-            </div>
+        </div>
         </div>
 
     </header>
-    <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
-        <div class="container-fluid">
-            <a class="navbar-brand " style="color: aliceblue" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid barra-navegacion">
+            <a class="navbar-brand " style="color: rgb(255, 255, 255)" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
